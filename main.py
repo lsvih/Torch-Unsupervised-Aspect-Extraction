@@ -59,7 +59,7 @@ def train_epoch(train_loader, neg_gen, model, optimizer, loss_function):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Sliding convolution')
+    parser = argparse.ArgumentParser(description='Unsupervised Aspect Extraction')
     parser.add_argument('--batch-size', default=128, type=int)
     parser.add_argument('--epoch', default=1000, type=int)
     parser.add_argument('--workers', default=2, type=int)
